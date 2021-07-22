@@ -1,0 +1,97 @@
+/* Stile generale della pagina e del body */
+html{
+  background-image: url(img/background.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  padding: 3%;
+  font-family: 'Roboto', 'sans-serif';
+}
+
+body{
+  background-color: rgba(0,0,0,.6);
+  padding: 40px 90px 40px 90px;
+  width: 1000px;
+  margin: auto;
+  border-radius: 30px;
+}
+
+
+/* Sezione header */
+header{
+  text-align: center;
+}
+
+.logo{
+  width: 25%;
+}
+
+/* Navbar section */
+nav{
+  color: #7fff1f;
+  text-align: center;
+  font-size: 25px;
+  line-height: 10px;
+}
+
+.buttons{
+  background-color: #7fff1f;
+  padding: 15px 0px 15px 0px;
+}
+
+button:hover{
+  background-color: lightgray;
+}
+
+nav button{
+  border: none;
+  padding: 10px 16px 10px 16px;
+  font-weight: 900;
+  border-radius: 10px;
+}
+
+
+/* Stile sezione monopattini */
+div p:before{
+  content: '\21A6 ';
+}
+
+.monopattino{
+  color: white;
+  margin: 40px 0px 30px 0px;
+}
+
+.name{
+  display: inline;
+  font-weight: 400;
+  font-size: 19px;
+}
+
+.posizione{
+  margin-bottom: -19px;
+  margin-top: 5px;
+}
+
+div h5{
+  margin-bottom: 5px;
+}
+
+/* Stile e dimensioni carica batterie
+monopattini */
+.carica{
+  border-radius: 5px;
+}
+
+.high{
+  padding: 0px 550px 10px 0px;
+  background-color: green;
+}
+
+.low{
+  padding: 0px 150px 10px 0px;
+  background-color: red;
+}
+
+.mid{
+  padding: 0px 350px 10px 0px;
+  background-color: orange;
+}
